@@ -56,7 +56,7 @@
             this.guna2TextBox_Username.BackColor = System.Drawing.Color.Transparent;
             this.guna2TextBox_Username.BorderRadius = 20;
             this.guna2TextBox_Username.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox_Username.DefaultText = "";
+            this.guna2TextBox_Username.DefaultText = "Admin";
             this.guna2TextBox_Username.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox_Username.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox_Username.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -103,7 +103,7 @@
             this.guna2TextBox_Password.BackColor = System.Drawing.Color.Transparent;
             this.guna2TextBox_Password.BorderRadius = 20;
             this.guna2TextBox_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox_Password.DefaultText = "";
+            this.guna2TextBox_Password.DefaultText = "6897";
             this.guna2TextBox_Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox_Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.guna2TextBox_Password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -131,8 +131,8 @@
             this.guna2Button_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button_login.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2Button_login.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button_login.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
+            this.guna2Button_login.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold);
             this.guna2Button_login.ForeColor = System.Drawing.SystemColors.Control;
             this.guna2Button_login.Location = new System.Drawing.Point(562, 541);
             this.guna2Button_login.Name = "guna2Button_login";

@@ -74,6 +74,8 @@
     <Compile Include="Dashbord.Designer.cs">
       <DependentUpon>Dashbord.cs</DependentUpon>
     </Compile>
+    <Compile Include="DGVPrinter.cs" />
+    <Compile Include="function.cs" />
     <Compile Include="Login_page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,11 +90,29 @@
     <Compile Include="Usercontrol\Add_item.Designer.cs">
       <DependentUpon>Add_item.cs</DependentUpon>
     </Compile>
+    <Compile Include="Usercontrol\Delete_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Usercontrol\Delete_item.Designer.cs">
+      <DependentUpon>Delete_item.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usercontrol\Place_order.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Usercontrol\Place_order.Designer.cs">
       <DependentUpon>Place_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrol\Update_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Usercontrol\Update_item.Designer.cs">
+      <DependentUpon>Update_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrol\Wlecome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Usercontrol\Wlecome.Designer.cs">
+      <DependentUpon>Wlecome.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Dashbord.resx">
       <DependentUpon>Dashbord.cs</DependentUpon>
@@ -112,8 +132,17 @@
     <EmbeddedResource Include="Usercontrol\Add_item.resx">
       <DependentUpon>Add_item.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Usercontrol\Delete_item.resx">
+      <DependentUpon>Delete_item.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Usercontrol\Place_order.resx">
       <DependentUpon>Place_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usercontrol\Update_item.resx">
+      <DependentUpon>Update_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usercontrol\Wlecome.resx">
+      <DependentUpon>Wlecome.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -13,3 +13,6 @@ D:\C# Project\Project File\C#_Project_Cafe_Management_System\C#_Project_Cafe_Man
 D:\C# Project\Project File\C#_Project_Cafe_Management_System\C#_Project_Cafe_Management_System\obj\Debug\C__Project_Cafe_Management_System.Dashbord.resources
 D:\C# Project\Project File\C#_Project_Cafe_Management_System\C#_Project_Cafe_Management_System\obj\Debug\C__Project_Cafe_Management_System.Usercontrol.Add_item.resources
 D:\C# Project\Project File\C#_Project_Cafe_Management_System\C#_Project_Cafe_Management_System\obj\Debug\C__Project_Cafe_Management_System.Usercontrol.Place_order.resources
+D:\C# Project\Project File\C#_Project_Cafe_Management_System\C#_Project_Cafe_Management_System\obj\Debug\C__Project_Cafe_Management_System.Usercontrol.Update_item.resources
+D:\C# Project\Project File\C#_Project_Cafe_Management_System\C#_Project_Cafe_Management_System\obj\Debug\C__Project_Cafe_Management_System.Usercontrol.Delete_item.resources
+D:\C# Project\Project File\C#_Project_Cafe_Management_System\C#_Project_Cafe_Management_System\obj\Debug\C__Project_Cafe_Management_System.Usercontrol.Wlecome.resources

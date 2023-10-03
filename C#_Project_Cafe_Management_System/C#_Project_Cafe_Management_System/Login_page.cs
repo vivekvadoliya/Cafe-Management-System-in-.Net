@@ -15,7 +15,7 @@ namespace C__Project_Cafe_Management_System
 {
     public partial class Login_page : Form
     {
-        string username;
+        string user;
         public Login_page()
         {
             InitializeComponent();
@@ -27,10 +27,16 @@ namespace C__Project_Cafe_Management_System
         }
         private void guna2Button_login_Click(object sender, EventArgs e)
         {
-            guna2TextBox_Username.Text = username;
-            Dashbord ds = new Dashbord(username);
-            ds.Show();
-            this.Hide();
+            if (guna2TextBox_Username.Text == "Admin" && guna2TextBox_Password.Text == "6897") 
+            {
+                Dashbord ds = new Dashbord();
+                ds.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invaild Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
     
         }
     }

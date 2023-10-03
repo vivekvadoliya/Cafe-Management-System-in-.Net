@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,55 +18,47 @@ namespace C__Project_Cafe_Management_System
         {
             InitializeComponent();
         }
-        public Dashbord(string username)
+
+        private void btn_placeorder_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
-            if (username == "Employee")
-            {
-                guna2Button_Add_item.Hide();
-                guna2Button_update_item.Hide();
-                guna2Button_remove_item.Hide();
-                guna2Button_remove_employee.Hide();
-                guna2Button_add_employee.Hide();
-            }
-            if (username == "Admin")
-            {
-                guna2Button_Palce_order.Show();
-                guna2Button_Add_item.Show();
-                guna2Button_update_item.Show();
-                guna2Button_remove_item.Show();
-                guna2Button_remove_employee.Show();
-                guna2Button_add_employee.Show();
-            }
+            place_order1.BringToFront();
+            place_order1.Visible = true;
+            add_item1.Visible = false;
+            update_item1.Visible = false;
+            delete_item1.Visible = false;
         }
 
-        private void guna2Button_Palce_order_Click(object sender, EventArgs e)
+        private void btn_additem_Click(object sender, EventArgs e)
         {
+            add_item1.Visible = true;
+            add_item1.BringToFront();
+            update_item1.Visible = false;
+            delete_item1.Visible = false;
         }
 
-        private void guna2Button_remove_employee_Click(object sender, EventArgs e)
+        private void btn_updateitem_Click(object sender, EventArgs e)
         {
-            
+            update_item1.Visible = true;
+            update_item1.BringToFront();
+            add_item1.Visible=false;
+            place_order1.Visible=false;
+            delete_item1.Visible=false;
         }
 
-        private void guna2Button_Add_item_Click(object sender, EventArgs e)
+        private void btn_deleteitem_Click(object sender, EventArgs e)
         {
-         
+            delete_item1.Visible = true;
+            delete_item1.BringToFront();
+            update_item1.Visible=false;
+            add_item1.Visible = false;
+            place_order1.Visible=false;
         }
 
-        private void guna2Button_update_item_Click(object sender, EventArgs e)
+        private void btnLogout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
-        }
-
-        private void guna2Button_remove_item_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void guna2Button_add_employee_Click(object sender, EventArgs e)
-        {
-            
+            Login_page login_Page = new Login_page();
+            this.Hide();
+            login_Page.Show();
         }
     }
 }
